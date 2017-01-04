@@ -1,0 +1,55 @@
+{
+  "name": "punctuation-regex",
+  "description": "Regular expression for matching punctuation characters.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/regexhq/punctuation-regex",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "regexhq/punctuation-regex",
+  "bugs": {
+    "url": "https://github.com/regexhq/punctuation-regex/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "punctuation",
+    "regex"
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "whitespace-regex",
+        "copyright-regex",
+        "path-root-regex",
+        "word-regex"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
+  }
+}
