@@ -22,4 +22,9 @@ describe('punctuation-regex', function() {
     assert(regex().test('/'));
     assert(regex().test('*'));
   });
+
+  it('should match extended punctuation characters', function () {
+    assert(!regex().test('‘'));
+    assert(regex(true).test('‘'));
+  });
 });
