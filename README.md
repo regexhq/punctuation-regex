@@ -22,11 +22,18 @@ console.log(punctuation().test('!'));
 //=> true
 ```
 
+Pass `true` to get a regex for matching the additional "supplemental" characters mentioned in the wikipedia article.
+
+```js
+console.log(punctuation(true).test('‘'));
+//=> true
+```
+
 ## About
 
 ### Related projects
 
-* [copyright-regex](https://www.npmjs.com/package/copyright-regex): Regex for matching and parsing copyright statements. | [homepage](https://github.com/regexhq/copyright-regex "Regex for matching and parsing copyright statements.")
+* [is-punctuation](https://www.npmjs.com/package/is-punctuation): Returns true if the given string is punctuation characters. | [homepage](https://github.com/jonschlinkert/is-punctuation "Returns true if the given string is punctuation characters.")
 * [path-root-regex](https://www.npmjs.com/package/path-root-regex): Regular expression for getting the root of a posix or windows filepath. | [homepage](https://github.com/regexhq/path-root-regex "Regular expression for getting the root of a posix or windows filepath.")
 * [whitespace-regex](https://www.npmjs.com/package/whitespace-regex): Regular expression for matching the whitespace in a string. | [homepage](https://github.com/regexps/whitespace-regex "Regular expression for matching the whitespace in a string.")
 * [word-regex](https://www.npmjs.com/package/word-regex): Regular expression for matching words in a string. Support for english, CJK and Cyrillic. | [homepage](https://github.com/regexps/word-regex "Regular expression for matching words in a string. Support for english, CJK and Cyrillic.")
